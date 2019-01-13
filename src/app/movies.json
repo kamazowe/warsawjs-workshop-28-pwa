@@ -1,0 +1,14 @@
+[
+  {
+    "id": "spider_man",
+    "title": "Spider man",
+    "description": "Peter Parker po ugryzieniu przez radioaktywnego pająka zyskuje supermoce pozwalające mu walczyć z przestępcami. Stara się pomścić śmierć wuja i pokonać Zielonego Goblina.",
+    "imageUrl": "https://picsum.photos/200/300/?random"
+  },
+  {
+    "id": "Niesamowity_Spider_Man",
+    "title": "Niesamowity-Spider-Man",
+    "description": "Nowy start serii. Peter Parker mierzy się zarówno z byciem superbohaterem, dorastaniem, jak i człowiekiem Jaszczurem.",
+    "imageUrl": "https://picsum.photos/200/300/?random"
+  }
+]

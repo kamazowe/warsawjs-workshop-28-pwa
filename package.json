@@ -4,12 +4,14 @@
   "scripts": {
     "ng": "ng",
     "http": "http-server -c-1 dist/pwa/",
-    "start:pwa":"ng build --watch",
+    "start:pwa": "ng build --watch",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "ng build --prod",
+    "deploy": "gh-pages -d dist/pwa"
   },
   "private": true,
   "dependencies": {
