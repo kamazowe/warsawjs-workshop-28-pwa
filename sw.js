@@ -36,7 +36,9 @@ async function startActivating() {
 self.addEventListener('fetch', (evt) => {
     console.log('[SW] ', evt.request);
 
-    cacheFallbackNetworkStrategy(evt);
+    evt.respondWith(()=>{
+        cacheFallbackNetworkStrategy(evt);
+    });
 });
 
 async function cacheFallbackNetworkStrategy(evt) {
