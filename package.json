@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "http": "http-server -c-1 dist/pwa/",
+    "start:pwa":"ng build --watch",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
